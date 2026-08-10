@@ -1,0 +1,317 @@
+{
+  "id": "tku-tamsui-verse",
+  "title": "淡江·淡水 · 虛擬劇本世界",
+  "subtitle": "Tamkang × Tamsui Drama World",
+  "locale": "zh-TW",
+  "setting": {
+    "region": "新北市淡水",
+    "campus": "淡江大學淡水校園",
+    "tone": "青春成長 × 校園神秘 × 地方人情",
+    "era": "當代"
+  },
+  "locations": [
+    {
+      "id": "palace",
+      "name": "宮燈大道",
+      "en": "Palace Avenue",
+      "area": "campus",
+      "mood": "迎新、歸屬",
+      "desc": "校門迎新點，宮燈教室旁的主幹道。故事常從這裡開始。",
+      "backdrop": "/studio/backdrops/palace-dusk.jpg",
+      "tags": [
+        "開場",
+        "日常"
+      ]
+    },
+    {
+      "id": "library",
+      "name": "覺生紀念圖書館",
+      "en": "Library",
+      "area": "campus",
+      "mood": "靜謐、秘密",
+      "desc": "自習、約會、交換情報的地方。考試週人潮湧現。",
+      "backdrop": "/studio/backdrops/library-atrium.jpg",
+      "tags": [
+        "情報",
+        "內省"
+      ]
+    },
+    {
+      "id": "gym",
+      "name": "紹謨體育館",
+      "en": "Gymnasium",
+      "area": "campus",
+      "mood": "熱血、對抗",
+      "desc": "社團、體育課與挑戰關卡的舞台。",
+      "backdrop": "/studio/backdrops/studio-white.jpg",
+      "tags": [
+        "衝突",
+        "動作"
+      ]
+    },
+    {
+      "id": "chingsheng",
+      "name": "驚聲紀念大樓",
+      "en": "Ching-sheng",
+      "area": "campus",
+      "mood": "高潮、對決",
+      "desc": "東側地標，劇本高潮與反派對峙點。",
+      "backdrop": "/studio/backdrops/palace-dusk.jpg",
+      "tags": [
+        "高潮"
+      ]
+    },
+    {
+      "id": "foodcourt",
+      "name": "美食廣場",
+      "en": "Food Court",
+      "area": "campus",
+      "mood": "生活、吐槽",
+      "desc": "學餐、便當與閒聊。輕鬆場次首選。",
+      "backdrop": "/studio/backdrops/studio-white.jpg",
+      "tags": [
+        "日常",
+        "喜劇"
+      ]
+    },
+    {
+      "id": "tamsui_old",
+      "name": "淡水老街",
+      "en": "Tamsui Old Street",
+      "area": "tamsui",
+      "mood": "懷舊、約會",
+      "desc": "下克難坡出校園後的人間煙火。",
+      "backdrop": "/studio/backdrops/tamsui-sky.jpg",
+      "tags": [
+        "校外",
+        "浪漫"
+      ]
+    },
+    {
+      "id": "riverside",
+      "name": "淡水河岸",
+      "en": "Riverside",
+      "area": "tamsui",
+      "mood": "抒情、告解",
+      "desc": "落日與對岸觀音山，適合獨白與告白。",
+      "backdrop": "/studio/backdrops/tamsui-sky.jpg",
+      "tags": [
+        "抒情",
+        "收束"
+      ]
+    },
+    {
+      "id": "mrt",
+      "name": "捷運淡水站",
+      "en": "Tamsui MRT",
+      "area": "tamsui",
+      "mood": "離別、出發",
+      "desc": "進出淡水的門戶，角色來去的轉場。",
+      "backdrop": "/studio/backdrops/tamsui-sky.jpg",
+      "tags": [
+        "轉場"
+      ]
+    }
+  ],
+  "characters": [
+    {
+      "id": "anjie",
+      "name": "安倢",
+      "role": "主角",
+      "year": "新生",
+      "trait": "觀察力強、有行動力",
+      "goal": "完成迎新闖關、認識校園與自己",
+      "avatar": "/studio/models/3955.jpg",
+      "color": "#5ee4a8"
+    },
+    {
+      "id": "zhewei",
+      "name": "張哲維",
+      "role": "挑戰者／對手",
+      "year": "學長",
+      "trait": "強勢、愛惡作劇式考驗",
+      "goal": "用挑戰篩選「真正融入淡江的人」",
+      "avatar": "/studio/guests/3947.jpg",
+      "color": "#c77dff"
+    },
+    {
+      "id": "bainen",
+      "name": "柏能",
+      "role": "重要角色",
+      "year": "學長",
+      "trait": "溫和、容易迷路",
+      "goal": "被找到，並成為嚮導",
+      "avatar": "/studio/models/anjie-portrait.png",
+      "color": "#f0a0c0"
+    },
+    {
+      "id": "xiaoyu",
+      "name": "小雨",
+      "role": "迎新總召",
+      "year": "學姊",
+      "trait": "可靠、資訊中樞",
+      "goal": "帶新生完成導覽",
+      "avatar": "/studio/group/3376.jpg",
+      "color": "#6ba8ff"
+    },
+    {
+      "id": "azhen",
+      "name": "阿貞",
+      "role": "學餐阿姨",
+      "year": "—",
+      "trait": "嘴硬心軟",
+      "goal": "餵飽學生、清掉麻煩",
+      "avatar": "/studio/group/3377.jpg",
+      "color": "#f0c14d"
+    }
+  ],
+  "episode": {
+    "id": "ep01",
+    "title": "第一集：宮燈下的迎新",
+    "logline": "新生安倢踏入淡江，卻發現柏能學長在驚聲廣場失聯——一場橫跨校園與淡水的尋人劇本就此展開。",
+    "scenes": [
+      {
+        "id": "s1",
+        "title": "宮燈大道 · 開場",
+        "locationId": "palace",
+        "characters": [
+          "anjie",
+          "xiaoyu"
+        ],
+        "beats": [
+          {
+            "type": "action",
+            "text": "黃昏。宮燈亮起。安倢拖著行李站在迎新點。"
+          },
+          {
+            "type": "dialogue",
+            "speaker": "xiaoyu",
+            "text": "安倢同學？歡迎來到淡江大學淡水校園！"
+          },
+          {
+            "type": "dialogue",
+            "speaker": "anjie",
+            "text": "學姊好……這邊風景好像電影片場。"
+          },
+          {
+            "type": "dialogue",
+            "speaker": "xiaoyu",
+            "text": "今天你有任務：找到在驚聲大樓前失聯的柏能學長。路上記得蓋新生戳章。"
+          }
+        ]
+      },
+      {
+        "id": "s2",
+        "title": "美食廣場 · 支線",
+        "locationId": "foodcourt",
+        "characters": [
+          "anjie",
+          "azhen"
+        ],
+        "beats": [
+          {
+            "type": "action",
+            "text": "學餐飄出便當香味，角落卻有「迷航史萊姆」亂竄（想像中的迎新惡作劇）。"
+          },
+          {
+            "type": "dialogue",
+            "speaker": "azhen",
+            "text": "欸新生！幫阿姨清掉那些綠色的，請你喝提神飲料。"
+          },
+          {
+            "type": "dialogue",
+            "speaker": "anjie",
+            "text": "好！清完我就往東邊圖書館方向走。"
+          }
+        ]
+      },
+      {
+        "id": "s3",
+        "title": "圖書館 · 情報",
+        "locationId": "library",
+        "characters": [
+          "anjie"
+        ],
+        "beats": [
+          {
+            "type": "action",
+            "text": "玻璃中庭灑進午後光。安倢在公告欄看到驚聲廣場「迎新挑戰」海報。"
+          },
+          {
+            "type": "dialogue",
+            "speaker": "anjie",
+            "text": "張哲維學長的挑戰……柏能一定被卡在那。"
+          },
+          {
+            "type": "note",
+            "text": "可安插：同學NPC給路線提示（體育館→驚聲）。"
+          }
+        ]
+      },
+      {
+        "id": "s4",
+        "title": "驚聲廣場 · 高潮",
+        "locationId": "chingsheng",
+        "characters": [
+          "anjie",
+          "zhewei",
+          "bainen"
+        ],
+        "beats": [
+          {
+            "type": "action",
+            "text": "廣場風大。張哲維站在中央，柏能被「挑戰規則」困在一旁。"
+          },
+          {
+            "type": "dialogue",
+            "speaker": "zhewei",
+            "text": "想救學長？先證明你配得上淡江的山與坡。"
+          },
+          {
+            "type": "dialogue",
+            "speaker": "anjie",
+            "text": "我不是來證明的——我是來把人帶回去。"
+          },
+          {
+            "type": "action",
+            "text": "挑戰戰（可接遊戲關卡）。安倢獲勝。"
+          },
+          {
+            "type": "dialogue",
+            "speaker": "bainen",
+            "text": "你來了……我們回宮燈大道吧。"
+          }
+        ]
+      },
+      {
+        "id": "s5",
+        "title": "淡水河岸 · 收束",
+        "locationId": "riverside",
+        "characters": [
+          "anjie",
+          "bainen"
+        ],
+        "beats": [
+          {
+            "type": "action",
+            "text": "兩人走出校園，河面映著觀音山剪影。"
+          },
+          {
+            "type": "dialogue",
+            "speaker": "bainen",
+            "text": "淡水不只是上課的地方。你慢慢會懂。"
+          },
+          {
+            "type": "dialogue",
+            "speaker": "anjie",
+            "text": "那下一集，我們從老街開始？"
+          },
+          {
+            "type": "note",
+            "text": "卡黑。預告第二集：老街傳聞。"
+          }
+        ]
+      }
+    ]
+  }
+}
