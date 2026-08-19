@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="zh-TW">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>淡江·淡水 · 虛擬劇本世界 — Preview</title>
+    <link rel="stylesheet" href="./styles.css" />
+  </head>
+  <body>
+    <header class="site-header">
+      <div class="wrap">
+        <h1 id="world-title">載入中…</h1>
+        <p id="world-subtitle" class="subtitle"></p>
+        <div id="setting-chips" class="chips"></div>
+      </div>
+    </header>
+
+    <nav class="tabs wrap" role="tablist">
+      <button class="tab is-active" data-target="episode">劇本 Episode</button>
+      <button class="tab" data-target="locations">地點 Locations</button>
+      <button class="tab" data-target="characters">角色 Characters</button>
+    </nav>
+
+    <main class="wrap">
+      <section id="episode" class="panel is-active"></section>
+      <section id="locations" class="panel"></section>
+      <section id="characters" class="panel"></section>
+      <p id="error" class="error" hidden></p>
+    </main>
+
+    <footer class="site-footer">
+      <div class="wrap">
+        本地預覽 · World as Code · 資料來源
+        <code>world/world.json</code>
+      </div>
+    </footer>
+
+    <script src="./app.js"></script>
+  </body>
+</html>
