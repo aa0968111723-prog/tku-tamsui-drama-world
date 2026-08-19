@@ -1,0 +1,320 @@
+{
+  "models": [
+    {
+      "id": "3955",
+      "src": "/studio/models/3955.jpg",
+      "w": 677,
+      "h": 900,
+      "label": "安倢 · 微笑",
+      "role": "model"
+    },
+    {
+      "id": "3956",
+      "src": "/studio/models/3956.jpg",
+      "w": 677,
+      "h": 900,
+      "label": "安倢 · 側顏",
+      "role": "model"
+    },
+    {
+      "id": "3957",
+      "src": "/studio/models/3957.jpg",
+      "w": 677,
+      "h": 900,
+      "label": "安倢 · 生活",
+      "role": "model"
+    },
+    {
+      "id": "3954",
+      "src": "/studio/models/3954.jpg",
+      "w": 677,
+      "h": 900,
+      "label": "安倢 · 自然",
+      "role": "model"
+    },
+    {
+      "id": "3953",
+      "src": "/studio/models/3953.jpg",
+      "w": 677,
+      "h": 900,
+      "label": "安倢 · 日常",
+      "role": "model"
+    },
+    {
+      "id": "3948",
+      "src": "/studio/models/3948.jpg",
+      "w": 677,
+      "h": 900,
+      "label": "安倢 · 用餐",
+      "role": "model"
+    },
+    {
+      "id": "3934",
+      "src": "/studio/models/3934.jpg",
+      "w": 900,
+      "h": 677,
+      "label": "安倢 · 合影角度",
+      "role": "model"
+    },
+    {
+      "id": "3932",
+      "src": "/studio/models/3932.jpg",
+      "w": 900,
+      "h": 677,
+      "label": "安倢 · 機器人",
+      "role": "model"
+    },
+    {
+      "id": "3990",
+      "src": "/studio/models/3990.jpg",
+      "w": 506,
+      "h": 900,
+      "label": "安倢 · 直式",
+      "role": "model"
+    },
+    {
+      "id": "3991",
+      "src": "/studio/models/3991.jpg",
+      "w": 506,
+      "h": 900,
+      "label": "安倢 · 直式二",
+      "role": "model"
+    },
+    {
+      "id": "anjie-portrait.png",
+      "src": "/studio/models/anjie-portrait.png",
+      "w": 320,
+      "h": 476,
+      "label": "安倢 · 肖像精修",
+      "role": "model"
+    }
+  ],
+  "guests": [
+    {
+      "id": "3947",
+      "src": "/studio/guests/3947.jpg",
+      "w": 677,
+      "h": 900,
+      "label": "張哲維 · 3947",
+      "role": "guest"
+    },
+    {
+      "id": "3939",
+      "src": "/studio/guests/3939.jpg",
+      "w": 677,
+      "h": 900,
+      "label": "張哲維 · 3939",
+      "role": "guest"
+    },
+    {
+      "id": "3914",
+      "src": "/studio/guests/3914.jpg",
+      "w": 677,
+      "h": 900,
+      "label": "張哲維 · 3914",
+      "role": "guest"
+    },
+    {
+      "id": "3915",
+      "src": "/studio/guests/3915.jpg",
+      "w": 677,
+      "h": 900,
+      "label": "張哲維 · 3915",
+      "role": "guest"
+    },
+    {
+      "id": "3946",
+      "src": "/studio/guests/3946.jpg",
+      "w": 677,
+      "h": 900,
+      "label": "張哲維 · 3946",
+      "role": "guest"
+    },
+    {
+      "id": "3945",
+      "src": "/studio/guests/3945.jpg",
+      "w": 677,
+      "h": 900,
+      "label": "張哲維 · 3945",
+      "role": "guest"
+    },
+    {
+      "id": "3913",
+      "src": "/studio/guests/3913.jpg",
+      "w": 677,
+      "h": 900,
+      "label": "張哲維 · 3913",
+      "role": "guest"
+    },
+    {
+      "id": "3777",
+      "src": "/studio/guests/3777.jpg",
+      "w": 900,
+      "h": 505,
+      "label": "張哲維 · 3777",
+      "role": "guest"
+    }
+  ],
+  "group": [
+    {
+      "id": "3935",
+      "src": "/studio/group/3935.jpg",
+      "w": 900,
+      "h": 677,
+      "label": "場景素材 · 3935",
+      "role": "prop"
+    },
+    {
+      "id": "3376",
+      "src": "/studio/group/3376.jpg",
+      "w": 677,
+      "h": 900,
+      "label": "場景素材 · 3376",
+      "role": "prop"
+    },
+    {
+      "id": "3377",
+      "src": "/studio/group/3377.jpg",
+      "w": 677,
+      "h": 900,
+      "label": "場景素材 · 3377",
+      "role": "prop"
+    },
+    {
+      "id": "3378",
+      "src": "/studio/group/3378.jpg",
+      "w": 677,
+      "h": 900,
+      "label": "場景素材 · 3378",
+      "role": "prop"
+    },
+    {
+      "id": "3785",
+      "src": "/studio/group/3785.jpg",
+      "w": 677,
+      "h": 900,
+      "label": "場景素材 · 3785",
+      "role": "prop"
+    },
+    {
+      "id": "3021",
+      "src": "/studio/group/3021.jpg",
+      "w": 900,
+      "h": 677,
+      "label": "場景素材 · 3021",
+      "role": "prop"
+    },
+    {
+      "id": "3022",
+      "src": "/studio/group/3022.jpg",
+      "w": 900,
+      "h": 677,
+      "label": "場景素材 · 3022",
+      "role": "prop"
+    },
+    {
+      "id": "2470",
+      "src": "/studio/group/2470.jpg",
+      "w": 677,
+      "h": 900,
+      "label": "場景素材 · 2470",
+      "role": "prop"
+    },
+    {
+      "id": "1601",
+      "src": "/studio/group/1601.jpg",
+      "w": 677,
+      "h": 900,
+      "label": "場景素材 · 1601",
+      "role": "prop"
+    },
+    {
+      "id": "1603",
+      "src": "/studio/group/1603.jpg",
+      "w": 900,
+      "h": 677,
+      "label": "場景素材 · 1603",
+      "role": "prop"
+    },
+    {
+      "id": "7144",
+      "src": "/studio/group/7144.jpg",
+      "w": 409,
+      "h": 900,
+      "label": "場景素材 · 7144",
+      "role": "prop"
+    },
+    {
+      "id": "7146",
+      "src": "/studio/group/7146.jpg",
+      "w": 409,
+      "h": 900,
+      "label": "場景素材 · 7146",
+      "role": "prop"
+    },
+    {
+      "id": "7147",
+      "src": "/studio/group/7147.jpg",
+      "w": 409,
+      "h": 900,
+      "label": "場景素材 · 7147",
+      "role": "prop"
+    }
+  ],
+  "campus": [
+    {
+      "id": "tku-campus-art.jpg",
+      "src": "/studio/campus/tku-campus-art.jpg",
+      "w": 1168,
+      "h": 784,
+      "label": "淡江校園平面",
+      "role": "location"
+    },
+    {
+      "id": "tku-campus-world.jpg",
+      "src": "/studio/campus/tku-campus-world.jpg",
+      "w": 1400,
+      "h": 900,
+      "label": "淡江俯瞰",
+      "role": "location"
+    },
+    {
+      "id": "sky-campus.jpg",
+      "src": "/studio/campus/sky-campus.jpg",
+      "w": 1400,
+      "h": 700,
+      "label": "淡水河景遠眺",
+      "role": "location"
+    }
+  ],
+  "backdrops": [
+    {
+      "id": "studio-white",
+      "src": "/studio/backdrops/studio-white.jpg",
+      "w": 1168,
+      "h": 784,
+      "label": "無縫棚白"
+    },
+    {
+      "id": "palace-dusk",
+      "src": "/studio/backdrops/palace-dusk.jpg",
+      "w": 1168,
+      "h": 784,
+      "label": "宮燈大道黃昏"
+    },
+    {
+      "id": "library-atrium",
+      "src": "/studio/backdrops/library-atrium.jpg",
+      "w": 1168,
+      "h": 784,
+      "label": "圖書館中庭"
+    },
+    {
+      "id": "tamsui-sky",
+      "src": "/studio/backdrops/tamsui-sky.jpg",
+      "w": 1600,
+      "h": 800,
+      "label": "淡水河景"
+    }
+  ]
+}

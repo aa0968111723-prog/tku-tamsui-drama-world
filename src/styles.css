@@ -1,0 +1,88 @@
+@import "tailwindcss";
+@import "tw-animate-css";
+
+@theme {
+  --color-bg: #0a0e14;
+  --color-surface: #121a24;
+  --color-surface-2: #1a2432;
+  --color-fg: #eef3f8;
+  --color-muted: #8fa0b3;
+  --color-primary: #5ee4a8;
+  --color-primary-fg: #042016;
+  --color-accent: #f0c14d;
+  --color-rose: #f0a0c0;
+  --color-danger: #ef6b6b;
+  --color-border: #2a3848;
+  --color-hp: #ef6b6b;
+  --color-mp: #6ba8ff;
+  --color-xp: #f0c14d;
+  --color-glass: rgb(18 26 36 / 0.82);
+  --radius-sm: 0.5rem;
+  --radius-md: 0.875rem;
+  --radius-lg: 1.25rem;
+  --font-sans: "Segoe UI", "PingFang TC", "Noto Sans TC", "Microsoft JhengHei", system-ui, sans-serif;
+  --font-display: "Segoe UI", "PingFang TC", "Noto Sans TC", system-ui, sans-serif;
+  --shadow-panel: 0 8px 32px rgb(0 0 0 / 0.45), 0 0 0 1px rgb(94 228 168 / 0.08);
+  --shadow-glow: 0 0 40px rgb(94 228 168 / 0.15);
+}
+
+@layer base {
+  * {
+    box-sizing: border-box;
+  }
+
+  html,
+  body,
+  #root {
+    height: 100%;
+  }
+
+  body {
+    margin: 0;
+    background: var(--color-bg);
+    color: var(--color-fg);
+    font-family: var(--font-sans);
+    overflow: hidden;
+    -webkit-font-smoothing: antialiased;
+  }
+
+  button:not(:disabled),
+  [role="button"]:not(:disabled) {
+    cursor: pointer;
+  }
+}
+
+@layer utilities {
+  .panel-glass {
+    background: var(--color-glass);
+    border: 1px solid color-mix(in oklab, var(--color-border) 80%, var(--color-primary) 20%);
+    box-shadow: var(--shadow-panel);
+    backdrop-filter: blur(14px);
+  }
+
+  .text-glow {
+    text-shadow: 0 0 24px rgb(94 228 168 / 0.35);
+  }
+
+  .btn-primary {
+    background: linear-gradient(180deg, color-mix(in oklab, var(--color-primary) 92%, white) 0%, var(--color-primary) 100%);
+    color: var(--color-primary-fg);
+    font-weight: 600;
+    box-shadow: 0 4px 16px rgb(94 228 168 / 0.25);
+    transition: transform 150ms ease, filter 150ms ease, box-shadow 150ms ease;
+  }
+
+  .btn-primary:hover {
+    filter: brightness(1.06);
+    box-shadow: 0 6px 20px rgb(94 228 168 / 0.35);
+  }
+
+  .btn-primary:active {
+    transform: scale(0.98);
+  }
+
+  .bar-track {
+    background: color-mix(in oklab, var(--color-bg) 80%, black);
+    border: 1px solid var(--color-border);
+  }
+}
